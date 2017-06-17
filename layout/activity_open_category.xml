@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/openCategoryView"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/categorytext"
+        android:layout_width="304dp"
+        android:layout_height="48dp"
+        android:layout_column="2"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_row="0"
+        android:layout_weight="0.61"
+        android:gravity="center_vertical|center_horizontal|center"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textSize="18sp"
+        android:transitionName="expandSubject" />
+
+    <ImageView
+        android:id="@+id/subjectImgView"
+        android:layout_width="143dp"
+        android:layout_height="131dp"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="1"
+        android:transitionName="expandImage"
+        android:layout_weight="0.06"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="24dp"
+        android:layoutMode="clipBounds"
+        android:prompt="@string/spinner_title"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Add Question" />
+
+    <Button
+        android:id="@+id/editqnButton"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="editQuestion"
+        android:text="Edit/List Questions" />
+
+    <Button
+        android:id="@+id/deleteQnBtn"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="editQuestion"
+        android:text="Delete Questions" />
+
+</LinearLayout>

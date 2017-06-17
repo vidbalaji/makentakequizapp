@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vidhyalearning.myquizapp.reviewquiz">
+    <HorizontalScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:id="@+id/tableLayout01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+            <TableRow
+                android:id="@+id/rowheading"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:background="@android:color/darker_gray">
+
+                <TextView
+                    android:id="@+id/txtId"
+                    android:layout_width="5dp"
+                    android:layout_height="wrap_content"
+                    android:text="#"
+                    android:textSize="6sp" />
+
+                <TextView
+                    android:id="@+id/txtqnHeading"
+                    android:layout_width="120dp"
+                    android:layout_height="wrap_content"
+                    android:text="Question" />
+
+                <TextView
+                    android:id="@+id/txtcorrectHeading"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|center_horizontal|center_vertical"
+                    android:text="Correct Answer"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txtyourHeading"
+                    android:layout_width="65dp"
+                    android:layout_height="wrap_content"
+                    android:text="Your Answer"
+                    android:textSize="12sp" />
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+</HorizontalScrollView>
+
+</LinearLayout>

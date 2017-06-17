@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Make n Take Quiz</string>
+    <string name="title_activity_new_user">NewUser</string>
+    <string name="title_activity_admin_screen">adminScreen</string>
+
+    <string name="title_section2">Change Password</string>
+    <string name="title_section1">List Quiz Categories</string>
+    <string name="title_section8">Sign Out</string>
+    <string name="title_section7">Import Questions</string>
+    <string name="title_section3">Add Category</string>
+    <string name="title_section5">Delete User</string>
+    <string name="title_section6">Export Questions </string>
+    <string name="title_section4">Delete Category</string>
+<string name="helpstring">
+    About  App:\n
+The art and science of asking questions is the source of all knowledge.\n
+Make’n’Take Quiz app helps you to create a quiz with your own questions thereby aiding you test the skills of quizee.\n
+There are many other quiz apps for students which have  a huge lot of questions that do not cater to the students knowledge for their age. Also many apps become Paid after a certain limit.
+\nSo ,why not, we as a well-wisher decide the right questions to be asked to our students to help them to acquire the right knowledge and right thinking?
+This app helps you to do that. That too it is absolutely free.
+The Quizzer should login as ‘admin’ to create the questions. The quizee should login with his desired name to attend the quiz.
+    \n\nAdvantages of this App:\n
+1.	Separate usernames for the quizzer(i.e username: admin) and quizee. Hence the quizee would not be exposed the other activities of Quiz maker.Also the answers would not be exposed to quizze prior to their attempting of quiz.
+\n2.	Export quiz  feature:
+The quizzer can share his question set to other people in the form of easily readable Xml Files.
+\n3.	Import quiz feature:
+The quizzer can receive and import his question set from other people in the form of easily readable Xml Files.
+\n4.	Quiz Category/Level:
+The quizzer can add as many number of categories(Maths,Science,English etc) under which they can start framing their questions.
+Under each category, they can group the questions according to the levels(Levels :1st Grade to 12th Grade,Level-Easy,Level-Medium,Level-Hard).This feature may be useful for school teachers or parents who want to test the  skills of the students according to the grades.
+
+\nPlease send your feedback/queries to : makentakequizapp@gmail.com
+
+</string>
+    <string name="loginhelp">Notes for first time users:\n1.Create usernames:admin and another desired username.\n2.Login as admin to make a quiz\n3.Login as any other username to take a quiz.\n4.If no questions preloaded, then app will request whether to preload some quesions.Click Yes if you want to preLoad  /Click No if you want to create your own questions.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_admin">adminActivity</string>
+    <string name="title_activity_addSubject">addSubject</string>
+    <string name="spinner_title">Select Class</string>
+    <string name="spinner_Category">Select Category</string>
+    <string-array name="class_array">
+        <item>Ist Grade</item>
+        <item>IInd Grade</item>
+        <item>IIIrd Grade</item>
+        <item>IVth Grade</item>
+        <item>Vth Grade</item>
+        <item>VIth Grade</item>
+        <item>VIIth Grade</item>
+        <item>VIIIth Grade</item>
+        <item>IXth Grade</item>
+        <item>Xth Grade</item>
+        <item>XIth Grade</item>
+        <item>XIIth Grade</item>
+        <item>Level-Easy</item>
+        <item>Level-Med</item>
+        <item>Level-Hard</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_adminquiz">adminquiz</string>
+    <string name="sample_records_n_qaset_n_question_add_55_and_66_question_n_answer_121_answer_n_level_ist_grade_level_n_subject_maths_subject_n_qaset_n_qaset_n_question_what_is_opposite_of_cry_question_n_answer_laugh_or_laugh_answer_n_level_ist_grade_level_n_subject_english_subject_n_qaset_n_records"><![CDATA[Sample : <records> <qaset> <question>Add 55 and 66</question> <answer>121</answer> <level>Ist Grade</level> <subject>Maths</subject> </qaset> <qaset> <question>What is opposite of Cry</question> <answer>laugh#or#Laugh</answer> <level>Ist Grade</level> <subject>English</subject> </qaset> </records>]]></string>
+    <string name="search_hint">Search question</string>
+</resources>

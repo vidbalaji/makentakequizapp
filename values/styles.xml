@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAllowEnterTransitionOverlap">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap">true</item>
+        <item name="android:windowEnterAnimation">@android:anim/cycle_interpolator</item>
+        <item name="android:windowSharedElementEnterTransition">@android:transition/explode</item>
+        <item name="android:windowSharedElementExitTransition">@android:transition/move</item>
+    </style>
+
+
+    <style name="Theme_Dialog_1" parent="android:Theme.Dialog">
+
+        <item name="android:windowEnterAnimation">@anim/bottom_left_enter</item>
+    </style>
+    <style name="Theme_Dialog_2" parent="android:Theme.Dialog">
+
+        <item name="android:windowEnterAnimation">@anim/bounce</item>
+    </style>
+    <style name="Theme_Dialog_3" parent="android:Theme.Dialog">
+
+        <item name="android:windowEnterAnimation">@anim/overshoot</item>
+    </style>
+  </resources>
